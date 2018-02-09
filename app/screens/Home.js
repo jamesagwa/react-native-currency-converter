@@ -20,7 +20,7 @@ class Home extends Component {
     isFetching: PropTypes.bool,
     amount: PropTypes.number,
     conversionRate: PropTypes.number,
-    conversionDate: PropTypes.string,
+    // conversionDate: PropTypes.string,
     baseCurrency: PropTypes.string,
     quoteCurrency: PropTypes.string,
     primaryColor: PropTypes.string,

@@ -1,6 +1,10 @@
 {
   "expo": {
     "sdkVersion": "23.0.0",
-    "orientation": "portrait"
+    "orientation": "portrait",
+    "loading": {
+      "backgroundColor": "#4F6D7A",
+      "exponentIconColor": "white"
+    }
   }
 }

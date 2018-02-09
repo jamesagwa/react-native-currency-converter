@@ -69,10 +69,10 @@ class Logo extends Component {
     return (
       // images should always be set with a width before it can render on screen else it will throw an error
       <View style={styles.container}>
-        <Animated.View style={styles.containerImageStyle}>
+        <Animated.View style={containerImageStyle}>
           <Animated.Image
             resizeMode="contain"
-            style={[containerImageStyle]}
+            style={[StyleSheet.absoluteFill, containerImageStyle]}
             source={require('./images/background.png')}
           />
           <Animated.Image

@@ -19,7 +19,7 @@ function* getLatestConvertionRates(action) {
     const response = yield call(getLatestRate, currency);
     const result = yield response.json();
 
-    if (result.erro) {
+    if (result.error) {
       yield put({ type: CONVERSION_ERROR, error: result.error });
     } else {
       yield put({ type: CONVERSION_RESULT, result });
